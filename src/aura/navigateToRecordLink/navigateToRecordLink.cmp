@@ -1,0 +1,19 @@
+<aura:component  extends="c:BaseComponent">
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="recordName" type="String"/>
+    
+    <aura:attribute name="url" type="String" access="private"/>
+    <aura:attribute name="isConsoleNavigation" type="Boolean" access="private"/>
+    <aura:attribute name="pageReference" type="Object" access="private"/>
+    
+    <aura:handler name="init" value="{! this }" action="{! c.init }"/>
+    
+    <!-- navigation service component-->
+    <lightning:navigation aura:id="navService" />
+    <!-- workspaceAPI service component-->
+    <lightning:workspaceAPI aura:id="workspace" />
+
+    
+    <a href="{! v.url }" onclick="{!c.handleClick}">{! v.body }</a>
+	
+</aura:component>
