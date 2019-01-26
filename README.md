@@ -1,7 +1,7 @@
 # lightning-navigate
 
 This repo provides an example of how to use the [Navigation](https://developer.salesforce.com/docs/component-library/bundle/lightning:navigation/documentation) and [WorkspaceApi](https://developer.salesforce.com/docs/component-library/bundle/lightning:workspaceAPI/documentation) service components to navigate inside Lightning Experience (LEX).
-THe example use case shown here is that of an anchor tag that enables an user to navigate to a particular record. 
+The example use case shown here is that of an HTML anchor tag that enables an user to navigate to a particular record. 
 
 This is a common use case for a lot of clients and the usually the requirements are as follows:
 
